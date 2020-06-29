@@ -1,6 +1,6 @@
 const debug = require('debug')('cors-escape');
 const host = process.env.HOST || '0.0.0.0';
-const port = process.env.PORT || 2000;
+const port = process.env.PORT || 3050;
 
 // Grab the blacklist from the environment so that we can update the blacklist without deploying
 // again. CORS Escape is open by design, and this blacklist is not used, except for countering
